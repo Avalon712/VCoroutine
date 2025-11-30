@@ -1,0 +1,51 @@
+﻿using System.Collections;
+
+namespace CysharpCoroutine
+{
+    public static class CoroutineExtensions
+    {
+        /// <summary>
+        /// 作为一个协程进行运行
+        /// </summary>
+        /// <param name="coroutine">协程</param>
+        /// <returns>协程唯一id</returns>
+        public static CoroutineID RunAsCoroutine(this IEnumerator coroutine)
+        {
+            return VCoroutine.Run(coroutine);
+        }
+        
+        /// <summary>
+        /// 作为一个协程进行运行
+        /// </summary>
+        /// <param name="coroutine">协程</param>
+        /// <param name="context">协程运行时对yield结果处理的上下文对象</param>
+        /// <returns>协程唯一id</returns>
+        public static CoroutineID RunAsCoroutine(this IEnumerator coroutine, CoroutineYieldHandleContext context)
+        {
+            return VCoroutine.Run(coroutine, context);
+        }
+        
+        /// <summary>
+        /// 作为一个协程进行运行
+        /// </summary>
+        /// <param name="coroutine">协程</param>
+        /// <param name="coroutineName">协程别名（取别名方便调试）</param>
+        /// <returns>协程唯一id</returns>
+        public static CoroutineID RunAsCoroutine(this IEnumerator coroutine, string coroutineName)
+        {
+            return VCoroutine.Run(coroutine, coroutineName);
+        }
+        
+        /// <summary>
+        /// 作为一个协程进行运行
+        /// </summary>
+        /// <param name="coroutine">协程</param>
+        /// <param name="coroutineName">协程别名（取别名方便调试）</param>
+        /// <param name="context">协程运行时对yield结果处理的上下文对象</param>
+        /// <returns>协程唯一id</returns>
+        public static CoroutineID RunAsCoroutine(this IEnumerator coroutine, string coroutineName, CoroutineYieldHandleContext context)
+        {
+            return VCoroutine.Run(coroutine, coroutineName, context);
+        }
+    }
+}

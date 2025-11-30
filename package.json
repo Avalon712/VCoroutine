@@ -1,0 +1,22 @@
+{
+  "name": "org.avalon.vcoroutine",
+  "displayName": "VCoroutine",
+  "version": "1.0.0",
+  "unity": "2019.1",
+  "description": "C#协程的实现",
+  "repository": {
+    "url": "https://github.com/Avalon712/VCoroutine.git",
+    "type": "git"
+  },
+      "samples": [
+        {
+            "displayName": "VCoroutine Demo",
+            "description": "VCoroutine使用案例",
+            "path": "Samples~/Assets"
+        }
+    ],
+    "author": {
+    "name": "Avalon712",
+    "email": "2947897147@qq.com"
+  }
+}
