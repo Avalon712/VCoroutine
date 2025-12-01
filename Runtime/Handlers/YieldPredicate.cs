@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Csharp.Handlers
+namespace VC.Handlers
 {
     public sealed class YieldPredicate : YieldHandler
     {

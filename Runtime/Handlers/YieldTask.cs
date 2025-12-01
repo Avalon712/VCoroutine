@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Csharp.Handlers
+namespace VC.Handlers
 {
     public sealed class YieldTask : YieldHandler
     {

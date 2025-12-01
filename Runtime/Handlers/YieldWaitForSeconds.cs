@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 
-namespace Csharp.Handlers
+namespace VC.Handlers
 {
     public sealed class YieldWaitForSeconds : YieldHandler
     {

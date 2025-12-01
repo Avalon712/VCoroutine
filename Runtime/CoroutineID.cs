@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Csharp
+namespace VC
 {
     public readonly struct CoroutineID : IEquatable<CoroutineID>
     {

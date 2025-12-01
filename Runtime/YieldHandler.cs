@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Csharp
+namespace VC
 {
     public abstract class YieldHandler
     {

@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CysharpCoroutine;
+using VC;
 
 public sealed class ExtensionTest : MonoBehaviour
 {

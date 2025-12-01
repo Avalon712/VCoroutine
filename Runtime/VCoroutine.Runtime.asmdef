@@ -1,6 +1,6 @@
 {
     "name": "VCoroutine.Runtime",
-    "rootNamespace": "Csharp",
+    "rootNamespace": "VC",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

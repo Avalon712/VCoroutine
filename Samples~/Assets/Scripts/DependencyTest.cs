@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Networking;
-using CysharpCoroutine;
+using VC;
 
 public sealed class DependencyTest : MonoBehaviour
 {

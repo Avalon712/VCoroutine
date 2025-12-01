@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace Csharp.Handlers
+namespace VC.Handlers
 {
     public sealed class YieldEnumerator : YieldHandler
     {
