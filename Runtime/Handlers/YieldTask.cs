@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace CysharpCoroutine.Handlers
+namespace Csharp.Handlers
 {
     public sealed class YieldTask : YieldHandler
     {

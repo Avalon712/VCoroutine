@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace CysharpCoroutine
+namespace Csharp
 {
     public abstract class YieldHandler
     {

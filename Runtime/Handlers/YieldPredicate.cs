@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CysharpCoroutine.Handlers
+namespace Csharp.Handlers
 {
     public sealed class YieldPredicate : YieldHandler
     {

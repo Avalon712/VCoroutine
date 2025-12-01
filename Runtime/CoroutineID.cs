@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CysharpCoroutine
+namespace Csharp
 {
     public readonly struct CoroutineID : IEquatable<CoroutineID>
     {

@@ -1,6 +1,6 @@
 {
     "name": "VCoroutine.Runtime",
-    "rootNamespace": "CysharpCoroutine",
+    "rootNamespace": "Csharp",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace CysharpCoroutine.Handlers
+namespace Csharp.Handlers
 {
     public sealed class YieldWaitWhile : YieldHandler
     {
