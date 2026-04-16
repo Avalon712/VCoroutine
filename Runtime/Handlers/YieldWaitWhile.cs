@@ -10,7 +10,7 @@ namespace VC.Handlers
         protected override bool HandleYield(VCoroutine.CoroutineRecorder recorder)
         {
             WaitWhile waitWhile = (WaitWhile)recorder.Yield;
-            return waitWhile.keepWaiting;
+            return !waitWhile.keepWaiting;
         }
     }
 }
